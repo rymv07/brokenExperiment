@@ -9,7 +9,6 @@ public class CubeScript : MonoBehaviour
     public GameObject sphereHolder;
 
     public Rigidbody rb;
-    public Collider bc;
 
 
     // to set the Main Cube and disabled the Spheres
@@ -18,7 +17,6 @@ public class CubeScript : MonoBehaviour
         mainCube.SetActive(true);
         mCube.SetActive(true);
         sphereHolder.SetActive(false);
-        bc.gameObject.SetActive(true);
         rb.useGravity = true;
     }
 
@@ -29,7 +27,6 @@ public class CubeScript : MonoBehaviour
         {
             mCube.SetActive(false);
             sphereHolder.SetActive(true);
-            bc.gameObject.SetActive(false);
             rb.useGravity = false;
             mainCube.SetActive(true);
         }

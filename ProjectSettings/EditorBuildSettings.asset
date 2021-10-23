@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/brokenExperiment.unity
+    guid: 4a310514cf1be58459b239fa355e4887
   m_configObjects: {}
